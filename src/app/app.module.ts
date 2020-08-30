@@ -1,8 +1,10 @@
+import { LoginModule } from './login/login.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MdSidenavModule } from '@angular/material'
 import { CoreModule } from './core/core.module'
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +13,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     MdSidenavModule,
-    CoreModule
+    CoreModule,
+    LoginModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
