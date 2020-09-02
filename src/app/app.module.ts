@@ -1,3 +1,4 @@
+import { TaskModule } from './task/task.module';
 import { ProjectModule } from './project/project.module';
 import { LoginModule } from './login/login.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     CoreModule,
     LoginModule,
     AppRoutingModule,
+    TaskModule,
     ProjectModule,
   ],
   providers: [],
