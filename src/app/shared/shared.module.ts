@@ -11,7 +11,7 @@ import {
   MdGridListModule,
   MdDialogModule,
   MdAutocompleteModule,
-  MdMenuModule
+  MdMenuModule, MdCheckboxModule, MdTooltipModule, MdRadioModule, MdDatepickerModule, MdNativeDateModule
 } from '@angular/material';
 
 @NgModule({
@@ -27,6 +27,11 @@ import {
     MdGridListModule,
     MdDialogModule,
     MdMenuModule,
+    MdCheckboxModule,
+    MdTooltipModule,
+    MdRadioModule,
+    MdDatepickerModule,
+    MdNativeDateModule,
     MdAutocompleteModule,
   ],
   exports: [
@@ -41,6 +46,11 @@ import {
     MdGridListModule,
     MdDialogModule,
     MdMenuModule,
+    MdCheckboxModule,
+    MdTooltipModule,
+    MdRadioModule,
+    MdDatepickerModule,
+    MdNativeDateModule,
     MdAutocompleteModule,
   ],
   declarations: []
