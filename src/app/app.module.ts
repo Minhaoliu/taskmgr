@@ -7,6 +7,7 @@ import { MdSidenavModule } from '@angular/material'
 import { CoreModule } from './core/core.module'
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule,
     TaskModule,
     ProjectModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
