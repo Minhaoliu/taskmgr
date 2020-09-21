@@ -15,10 +15,6 @@ html, body, app-root, md-sidenav-container, .site {
 
 main {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .full-width {
@@ -27,10 +23,4 @@ main {
 
 .fill-remaining-space {
   flex: 1 1 auto;
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: black;
 }
