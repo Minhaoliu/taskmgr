@@ -1,3 +1,4 @@
+import { DirectiveModule } from './../directive/directive.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
@@ -11,7 +12,14 @@ import {
   MdGridListModule,
   MdDialogModule,
   MdAutocompleteModule,
-  MdMenuModule, MdCheckboxModule, MdTooltipModule, MdRadioModule, MdDatepickerModule, MdNativeDateModule, MdSelectModule
+  MdMenuModule,
+  MdCheckboxModule,
+  MdTooltipModule,
+  MdRadioModule,
+  MdDatepickerModule,
+  MdNativeDateModule,
+  MdSelectModule,
+  MdSidenavModule
 } from '@angular/material';
 import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.component';
 
@@ -35,6 +43,8 @@ import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.componen
     MdNativeDateModule,
     MdSelectModule,
     MdAutocompleteModule,
+    MdSidenavModule,
+    DirectiveModule
   ],
   exports: [
     CommonModule,
@@ -55,6 +65,8 @@ import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.componen
     MdNativeDateModule,
     MdSelectModule,
     MdAutocompleteModule,
+    MdSidenavModule,
+    DirectiveModule
   ],
   entryComponents: [
     ConfirmDialogComponent

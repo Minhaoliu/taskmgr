@@ -1,10 +1,11 @@
 import { MD_DIALOG_DATA, MdDialogRef } from '@angular/material';
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-copy-task',
   templateUrl: './copy-task.component.html',
-  styleUrls: ['./copy-task.component.scss']
+  styleUrls: ['./copy-task.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CopyTaskComponent implements OnInit {
 
